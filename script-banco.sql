@@ -37,6 +37,7 @@ CREATE TABLE IF NOT EXISTS `pedido` (
   `nome_pedido` varchar(100) DEFAULT NULL,
   `data_pedido` timestamp NOT NULL DEFAULT current_timestamp(),
   `valor_total` decimal(10,2) DEFAULT NULL,
+  `status_pedido` varchar(100) DEFAULT NULL,
   `forma_pagamento` varchar(100) DEFAULT NULL,
   PRIMARY KEY (`id_pedido`),
   KEY `fk_pedido` (`id_cliente`),
