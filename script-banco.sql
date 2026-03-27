@@ -22,7 +22,7 @@ CREATE TABLE IF NOT EXISTS `cliente` (
   `id_cliente` int(25) NOT NULL AUTO_INCREMENT,
   `nome` varchar(100) DEFAULT NULL,
   `telefone` varchar(100) DEFAULT NULL,
-  `endereco` varchar(100) DEFAULT NULL,
+  `email` varchar(100) DEFAULT NULL,
   PRIMARY KEY (`id_cliente`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
